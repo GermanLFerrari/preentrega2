@@ -1,0 +1,132 @@
+/* tipografia */
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* font-family: "Chakra Petch", sans-serif */
+
+
+h1 {
+    color: #ffffff;
+    background-color: #2802ff;
+    font-size: 60px;
+    font-family: chakra petch;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+h2 {
+    font-style: oblique;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* galeria */
+.fotos {
+    background-color: rgb(106, 161, 243);
+    color: blue;
+    border-radius: 5px;
+
+}
+
+.fotos img {
+    width: 50px;
+}
+
+.videos {
+    background-color: rgb(106, 161, 243);
+    color: blue;
+    border-radius: 5px;
+}
+
+/* menu de navegacion */
+nav li {
+    display: inline;
+    padding: 20px;
+
+}
+
+nav li a {
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.menu {
+    font-family: sans-serif;
+}
+
+.menu a {
+    color: blue;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+.menu ul {
+    list-style-type: none;
+
+}
+
+/* quien soy */
+.fondo p {
+    background-image: url(../resources/image/GLF_0353.jpg);
+
+}
+
+.fondo p. .fondo a {
+    border: solid 2px;
+}
+
+.imagen img {
+    height: 520px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+/* clientes */
+.clientes img {
+    height: 200px;
+    border: dotted 1px;
+    padding: 10px;
+    margin: 10px;
+    border: solid cadetblue;
+    border-radius: 10px;
+
+}
+
+.menu-clientes {
+    display: block;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    min-height: 200px;
+    align-items: center;
+    align-content: space-around;
+
+}
+
+.clientes {
+    display: flex;
+    border: #2802ff;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px;
+    padding: 10px;
+    margin: 10px;
+
+}
+h3{
+    color: blue;
+    font-size: 20px;
+    font-family: chakra petch;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+/* main-index */
+.main-index {}
